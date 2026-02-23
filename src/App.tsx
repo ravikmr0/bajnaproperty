@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import AboutBajna from './components/AboutBajna';
 import LocationHighlight from './components/LocationHighlight';
+import Connectivity from './components/Connectivity';
 import PropertyListings from './components/PropertyListings';
 import WhyChooseUs from './components/WhyChooseUs';
 import MarketOpportunity from './components/MarketOpportunity';
@@ -19,6 +20,7 @@ function App() {
       <Hero />
       <AboutBajna />
       <LocationHighlight />
+      <Connectivity />
       <PropertyListings />
       <WhyChooseUs />
       <MarketOpportunity />

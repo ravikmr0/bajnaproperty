@@ -15,6 +15,7 @@ export default function Header() {
     { label: 'Home', href: '#home' },
     { label: 'Properties', href: '#properties' },
     { label: 'About Bajna', href: '#about-bajna' },
+    { label: 'Connectivity', href: '#connectivity' },
     { label: 'Why Us', href: '#why-us' },
     { label: 'Testimonials', href: '#testimonials' },
     { label: 'Blog', href: '#blog' },
