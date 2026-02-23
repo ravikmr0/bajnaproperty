@@ -9,6 +9,7 @@ export default function Footer() {
     { label: 'Home', href: '#home' },
     { label: 'Properties', href: '#properties' },
     { label: 'About Bajna', href: '#about-bajna' },
+    { label: 'Connectivity', href: '#connectivity' },
     { label: 'Why Choose Us', href: '#why-us' },
     { label: 'Testimonials', href: '#testimonials' },
     { label: 'Contact', href: '#contact' },
