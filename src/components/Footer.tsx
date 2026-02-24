@@ -6,13 +6,13 @@ export default function Footer() {
   };
 
   const quickLinks = [
-    { label: 'Home', href: '#home' },
-    { label: 'Properties', href: '#properties' },
-    { label: 'About Bajna', href: '#about-bajna' },
-    { label: 'Connectivity', href: '#connectivity' },
-    { label: 'Why Choose Us', href: '#why-us' },
-    { label: 'Testimonials', href: '#testimonials' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'Home', href: '/' },
+    { label: 'Properties', href: '/properties' },
+    { label: 'About Bajna', href: '/about' },
+    { label: 'Connectivity', href: '/connectivity' },
+    { label: 'Why Choose Us', href: '/why-us' },
+    { label: 'Testimonials', href: '/testimonials' },
+    { label: 'Contact', href: '/contact' },
   ];
 
   const categories = [
@@ -94,12 +94,12 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <MapPin size={18} className="text-gold-400 flex-shrink-0 mt-0.5" />
-                <p className="text-white/60 text-sm">Main Market, Bajna,<br />Mathura, UP – 281006</p>
+                <p className="text-white/60 text-sm">Yamuna Expy, Saeo Patti Banger,<br />Bajna, Uttar Pradesh 281203, India</p>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={18} className="text-gold-400 flex-shrink-0" />
-                <a href="tel:+919876543210" className="text-white/60 text-sm hover:text-gold-400 transition-colors">
-                  +91 98765 43210
+                <a href="tel:+919953742002" className="text-white/60 text-sm hover:text-gold-400 transition-colors">
+                  +91 99537 42002
                 </a>
               </div>
               <div className="flex items-center gap-3">

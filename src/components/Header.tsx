@@ -14,7 +14,7 @@ export default function Header() {
   const navLinks = [
     { label: 'Home', href: '#home' },
     { label: 'Properties', href: '#properties' },
-    { label: 'About Bajna', href: '#about-bajna' },
+    { label: 'About Bajna', href: '#about' },
     { label: 'Connectivity', href: '#connectivity' },
     { label: 'Why Us', href: '#why-us' },
     { label: 'Testimonials', href: '#testimonials' },
@@ -37,7 +37,7 @@ export default function Header() {
             <div className="flex items-center gap-6">
               <span className="flex items-center gap-1">
                 <Phone size={14} />
-                +91 98765 43210
+                +91 99537 42002
               </span>
               <span className="flex items-center gap-1">
                 <MapPin size={14} />
