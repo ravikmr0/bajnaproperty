@@ -51,7 +51,7 @@ export default function LeadCapture() {
             {/* Contact Options */}
             <div className="space-y-4 mb-8">
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/917895849990"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 bg-green-500/20 hover:bg-green-500/30 border border-green-400/30 rounded-xl p-4 transition-colors group"
@@ -66,7 +66,7 @@ export default function LeadCapture() {
               </a>
 
               <a
-                href="tel:+919876543210"
+                href="tel:+917895849990"
                 className="flex items-center gap-4 bg-white/10 hover:bg-white/15 border border-white/10 rounded-xl p-4 transition-colors group"
               >
                 <div className="w-12 h-12 gold-gradient rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -74,7 +74,7 @@ export default function LeadCapture() {
                 </div>
                 <div>
                   <p className="text-white font-semibold">Call Now</p>
-                  <p className="text-white/60 text-sm">+91 98765 43210 – Available 9 AM to 8 PM</p>
+                  <p className="text-white/60 text-sm">+91 78958 49990 – Available 9 AM to 8 PM</p>
                 </div>
               </a>
 

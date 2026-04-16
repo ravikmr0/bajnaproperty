@@ -1,31 +1,51 @@
-import Header from '@/components/Header';
-import Hero from '@/components/Hero';
-import LocationHighlight from '@/components/LocationHighlight';
-import Connectivity from '@/components/Connectivity';
-import PropertyListings from '@/components/PropertyListings';
-import WhyChooseUs from '@/components/WhyChooseUs';
-import MarketOpportunity from '@/components/MarketOpportunity';
-import LeadCapture from '@/components/LeadCapture';
-import Testimonials from '@/components/Testimonials';
-import FAQ from '@/components/FAQ';
-import Blog from '@/components/Blog';
-import Footer from '@/components/Footer';
-import WhatsAppFloat from '@/components/WhatsAppFloat';
+import { useEffect } from 'react';
+import Footer from '@/components/landing/Footer';
+import HeroSection from '@/components/landing/HeroSection';
+import LeadCaptureSection from '@/components/landing/LeadCaptureSection';
+import LocationAdvantageSection from '@/components/landing/LocationAdvantageSection';
+import PricingSection from '@/components/landing/PricingSection';
+import ProjectHighlightsSection from '@/components/landing/ProjectHighlightsSection';
+import SiteHeader from '@/components/landing/SiteHeader';
+import VirtualTourSection from '@/components/landing/VirtualTourSection';
+import WhatsAppFloat from '@/components/landing/WhatsAppFloat';
+
+const seoConfig = {
+  title: 'Bajna Property 3D Virtual Tour | Professional Township Location on Bajna Cut',
+  description:
+    'Explore Bajna Property with a 3D virtual tour and discover a professional township location at Bajna Cut on the expressway, around 30 minutes from Noida International Airport and connected to Greater Noida, Noida, Delhi, and Gurugram.',
+};
 
 function App() {
+  useEffect(() => {
+    document.title = seoConfig.title;
+
+    const ensureMeta = (name: string, content: string) => {
+      let meta = document.querySelector(`meta[name="${name}"]`);
+
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.setAttribute('name', name);
+        document.head.appendChild(meta);
+      }
+
+      meta.setAttribute('content', content);
+    };
+
+    ensureMeta('description', seoConfig.description);
+    ensureMeta('theme-color', '#0c0c0e');
+  }, []);
+
   return (
-    <div className="min-h-screen">
-      <Header />
-      <Hero />
-      <LocationHighlight />
-      <Connectivity />
-      <PropertyListings />
-      <WhyChooseUs />
-      <MarketOpportunity />
-      <Testimonials />
-      <LeadCapture />
-      <Blog />
-      <FAQ />
+    <div className="bg-stone-950 text-stone-100">
+      <SiteHeader />
+      <main>
+        <HeroSection />
+        <VirtualTourSection />
+        <ProjectHighlightsSection />
+        <LocationAdvantageSection />
+        <PricingSection />
+        <LeadCaptureSection />
+      </main>
       <Footer />
       <WhatsAppFloat />
     </div>

@@ -37,7 +37,7 @@ export default function Header() {
             <div className="flex items-center gap-6">
               <span className="flex items-center gap-1">
                 <Phone size={14} />
-                +91 99537 42002
+                +91 78958 49990
               </span>
               <span className="flex items-center gap-1">
                 <MapPin size={14} />

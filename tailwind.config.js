@@ -45,8 +45,8 @@ export default {
         }
       },
       fontFamily: {
-        heading: ['Playfair Display', 'Georgia', 'serif'],
-        body: ['Inter', 'system-ui', 'sans-serif'],
+        heading: ['Outfit', 'Inter', 'system-ui', 'sans-serif'],
+        body: ['"DM Sans"', 'Inter', 'system-ui', 'sans-serif'],
       },
     },
   },
